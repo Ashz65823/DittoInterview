@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Assertion Failures",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*expect.*"
+  },
+  {
+    "name": "Timeout Errors",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "messageRegex": ".*timeout.*"
+  },
+  {
+    "name": "Element Not Found",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "messageRegex": ".*not found.*"
+  }
+]
